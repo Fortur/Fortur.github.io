@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Serif|Roboto');
+
+body{
+    font-family: roboto;
+    
+}
+    
+header{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    background-image: url(backim.jpg);
+    background-color: #ccc; 
+    height: 672px; 
+    top: 0px;
+    padding-top: 3%;
+}
+
+a,p{
+    color: white;
+}
+
+hr{
+    margin-right:3%;
+    margin-left:3%
+}
