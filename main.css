@@ -10,12 +10,12 @@ header{
     text-align: center;
     color: white;
     font-size: 17px;
-    background-image: url(backim.jpg);
+    background-image: url(backim2.jpg);
     background-size: cover;
     background-color: #ccc; 
     height: 672px; 
     top: 0px;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 a,p{
