@@ -36,3 +36,10 @@ hr{
     border: solid 1px red;
     
 }
+header img{
+    /*position: fixed;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
