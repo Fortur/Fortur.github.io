@@ -5,6 +5,7 @@
   <title>Title</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="jasny-bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
@@ -12,7 +13,14 @@
 
 <body>
 
-  <nav class="navbar fixed-top navbar-expand-sm navbar-dark " style="background-color: rgba(0, 0, 0, 0.4);padding-bottom: 0;padding-top: 0;">
+
+
+
+  <div class="navmenu navmenu-default navmenu-fixed-right offcanvas">
+
+  </div>
+
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="padding-bottom: 0;padding-top: 0;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,6 +57,13 @@
               <a class="dropdown-item" href="#">Dropdown Link 3</a>
             </div>
           </li>
+          <li class="nav-item">
+            <div>
+              <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+                <img src="burgerokda.png" alt="">
+              </button>
+            </div>
+          </li>
         </ul>
       </div>
 
@@ -63,37 +78,40 @@
     </div>
   </nav>
 
-  <!-- Удалить!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-  <style scoped>
-    body {
-      height: 2000px;
-    }
-  </style>
-
-
-  <header class="header" style="position:relative; background-image: url(backim2.jpg);">
-    <div class="container-fluid" style="padding-top:10vh;">
-      <div class="header_Central-text">
-        <p style="font-size:140%;padding-top:5%;">
-          ОТЧЕТ
-        </p>
-        <p style="font-size:170%;">
-          ОБ УСТОЙЧИВОМ РАЗВИТИИ
-        </p>
-        <p style="font-size:250%;font-weight:bold;">
-          SEGEZHA GROUP
-        </p>
-        <p style="font-size:130%;">
-          ЗА 2014-2015 гг
-        </p>
+  <div class="container-fluid large">
+    <header class="header" style="position:relative; background-image: url(backim2.jpg);">
+      <div class="container-fluid" style="padding-top:10vh;">
+        <div class="header_Central-text">
+          <p style="font-size:140%;padding-top:5%;">
+            ОТЧЕТ
+          </p>
+          <p style="font-size:170%;">
+            ОБ УСТОЙЧИВОМ РАЗВИТИИ
+          </p>
+          <p style="font-size:250%;font-weight:bold;">
+            SEGEZHA GROUP
+          </p>
+          <p style="font-size:130%;">
+            ЗА 2014-2015 гг
+          </p>
+        </div>
       </div>
+      <img src="tria2.png" alt="as" style="width:100%; position:absolute;top:45%;height:55%">
+    </header>
+    <div class="container-fluid">
+      <p>Тут всякая информацияzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzdqwdqzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+      <p>Тут всякая информация</p>
+      <p>Тут всякая информация</p>
+      <p>Тут всякая информация</p>
+      <p>Тут всякая информация</p>
+      <p>Тут всякая информация</p>
     </div>
-    <img src="tria2.png" alt="as" style="width:100%; position:absolute;top:45%;height:55%">
-  </header>
+  </div>
 
 </body>
 
 </html>
+
 <!-- jQuery library -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
@@ -105,6 +123,10 @@
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
   crossorigin="anonymous"></script>
+
+
+<script src="jasny-bootstrap.js"></script>
+
 
 <!-- Initialize Bootstrap functionality -->
 <script>
@@ -118,3 +140,4 @@
     $('[data-toggle="popover"]').popover()
   })
 </script>
+<script language="JavaScript" type="text/javascript" src="navshrink.js"></script>
